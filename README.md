@@ -34,6 +34,14 @@ The system estimates its position based on accelerometer and gyroscope readings.
 ### Complementary Filter Application
 A complementary filter combines accelerometer and gyroscope data. This improves position accuracy by balancing short-term and long-term sensor errors.<br><br>
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1MXRxwBr7m6ekEMMcBGttJcPgZe0lTVUV" width="50%">
+</p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1UnL2RTXhe2fq8TnqqkE_PlrFFv1ordN9" width="50%">
+</p>
+
 ## CAN Activities
 - **Node 1**: Collects data from sensors like IMU and encoders.<br>
 - **Message Preparation**: Data is packaged into a CAN message.<br>
@@ -45,6 +53,10 @@ A complementary filter combines accelerometer and gyroscope data. This improves 
 - **Sensor Calibration**: Ensures accuracy and corrects potential errors.<br>
 - **Raw vs. Processed Data**: Ensures only validated data is used for system functions.<br><br>
 
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=133G-4QHdK68DcPcgFu4rD2H4YvjUAmJU" width="50%">
+</p>
+
 ## Key Components
 - **MPU9250**: Provides orientation and acceleration data.<br>
 - **CAN Transceiver TJA1051**: Enables CAN bus communication.<br>
@@ -54,6 +66,14 @@ A complementary filter combines accelerometer and gyroscope data. This improves 
 - **Encoder**: Measures wheel position and speed.<br>
 - **Servo Motor**: Controls steering.<br>
 - **ESC (Electronic Speed Controller)**: Regulates motor speed.<br><br>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=1qz4hdMgSStBBuXl683tdNg-qwWAtCfIp" width="50%">
+</p>
+
+<p align="center">
+  <img src="https://drive.google.com/uc?export=view&id=18SVNji340aniLsqkf3ccl-fNtV90JLj6" width="50%">
+</p>
 
 ## Results & Benefits
 - **Accurate Navigation**: Improved waypoint tracking with minimal drift.<br>
